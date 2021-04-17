@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
-import Botoes from './src/components/funcionais/Botoes';
+import FlatList from './src/components/funcionais/FlatList';
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <Botoes />
+            <FlatList />
         </View>
     );
 }
