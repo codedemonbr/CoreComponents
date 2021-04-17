@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
-import ActIndicator from './src/components/funcionais/ActIndicator';
+import Botoes from './src/components/funcionais/Botoes';
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <ActIndicator />
+            <Botoes />
         </View>
     );
 }
